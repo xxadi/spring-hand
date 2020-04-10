@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/demo/mvc/action/DemoAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/demo/service/IDemoService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/demo/service/impl/DemoService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/mvcframework/annotation/GPAutowired.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/mvcframework/annotation/GPController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/mvcframework/annotation/GPRequestMapping.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/mvcframework/annotation/GPRequestParam.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/mvcframework/annotation/GPService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zw/spring/mvcframework/servlet/GPDispatcherServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/application.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/system.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/webdefault.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/application.properties" charset="GBK" />
+  </component>
+</project>

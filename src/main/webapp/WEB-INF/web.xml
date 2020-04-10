@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+  <display-name>sxq web application</display-name>
+  <servlet>
+    <servlet-name>sxqmvc</servlet-name>
+    <servlet-class>com.zw.spring.mvcframework.servlet.GPDispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>application.properties</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sxqmvc</servlet-name>
+    <!--用servlet拦截所有请求-->
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+</web-app>
